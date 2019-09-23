@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="5dp"
+    tools:context=".Home">
+
+    <TextView
+        android:id="@+id/text_ques"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1.Question : Who make this World?"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:padding="10dp"/>
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="20dp"
+        android:layout_marginVertical="10dp">
+        <RadioButton
+            android:id="@+id/option_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Allah Subhanua Taala"
+            android:textColor="#000"
+            android:textSize="18sp"
+            android:padding="5dp"/>
+        <RadioButton
+            android:id="@+id/option_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Allah Subhanua Taala"
+            android:textColor="#000"
+            android:textSize="18sp"
+            android:padding="5dp"/>
+        <RadioButton
+            android:id="@+id/option_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Allah Subhanua Taala"
+            android:textColor="#000"
+            android:textSize="18sp"
+            android:padding="5dp"/>
+        <RadioButton
+            android:id="@+id/option_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Allah Subhanua Taala"
+            android:textColor="#000"
+            android:textSize="18sp"
+            android:padding="5dp"/>
+    </RadioGroup>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/previous_btn"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:textSize="20sp"
+            android:textColor="#fff"
+            android:background="#6363ae"
+            android:text="Previous"
+            android:textAllCaps="false"/>
+        <Button
+            android:id="@+id/next_btn"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:textSize="20sp"
+            android:textColor="#fff"
+            android:background="#0000c8"
+            android:text="Next"
+            android:textAllCaps="false"
+            android:layout_marginLeft="5dp"/>
+    </LinearLayout>
+</LinearLayout>

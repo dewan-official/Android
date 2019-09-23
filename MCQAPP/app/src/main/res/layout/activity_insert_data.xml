@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".InsertData"
+    android:padding="10dp">
+
+    <EditText
+        android:id="@+id/e_ques"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="10dp"
+        android:hint="Question"/>
+    <EditText
+        android:id="@+id/e_option1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="10dp"
+        android:hint="Option1"/>
+    <EditText
+        android:id="@+id/e_option2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="10dp"
+        android:hint="Option2"/>
+    <EditText
+        android:id="@+id/e_option3"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="10dp"
+        android:hint="Option3"/>
+    <EditText
+        android:id="@+id/e_option4"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="10dp"
+        android:hint="Option4"/>
+    <EditText
+        android:id="@+id/e_ans"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="10dp"
+        android:hint="Answer"/>
+    <Button
+        android:id="@+id/insert_btn_id"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:background="#0000c8"
+        android:text="Insert Data"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:textSize="20sp"/>
+
+</LinearLayout>
