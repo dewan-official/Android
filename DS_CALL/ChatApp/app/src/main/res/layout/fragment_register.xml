@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Register">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="20"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:background="@color/colorPrimary">
+        <android.support.v7.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="18"
+            android:elevation="10dp"
+            android:padding="10dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:elevation="20dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        android:gravity="center_vertical"
+                        android:background="@color/colorAccent">
+                        <ImageView
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:src="@drawable/logo"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="DS CALL SIGN UP"
+                            android:padding="10dp"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:gravity="center_vertical"
+                            android:textColor="@color/white"/>
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                    <android.support.design.widget.TextInputEditText
+                        style="@style/inputFieldStyle"
+                        android:id="@+id/nameField_id"
+                        android:hint="Enter Your Name"
+                        android:inputType="text"/>
+                    <android.support.design.widget.TextInputEditText
+                        style="@style/inputFieldStyle"
+                        android:id="@+id/phoneField_id"
+                        android:hint="Enter Your Phone Number"
+                        android:inputType="phone"/>
+                    <android.support.design.widget.TextInputEditText
+                        style="@style/inputFieldStyle"
+                        android:id="@+id/emailField_id"
+                        android:hint="Enter Your Email"
+                        android:inputType="textEmailAddress"/>
+                    <android.support.design.widget.TextInputEditText
+                        style="@style/inputFieldStyle"
+                        android:id="@+id/passwordField_id"
+                        android:hint="Enter Password"
+                        android:inputType="textWebPassword"/>
+                    <android.support.design.widget.TextInputEditText
+                        style="@style/inputFieldStyle"
+                        android:id="@+id/re_passwordField_id"
+                        android:hint="Re-Enter Password"
+                        android:inputType="textWebPassword"/>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="2"
+                        android:padding="10dp">
+                        <Button
+                            android:id="@+id/login_btn_id"
+                            style="@style/btnStyle"
+                            android:layout_marginRight="5dp"
+                            android:text="Log In"
+                            android:background="@color/colorPrimaryDark"/>
+                        <Button
+                            android:id="@+id/register_btn_id"
+                            style="@style/btnStyle"
+                            android:layout_marginLeft="5dp"
+                            android:text="Sign Up"
+                            android:background="@color/colorAccent"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+
+</FrameLayout>

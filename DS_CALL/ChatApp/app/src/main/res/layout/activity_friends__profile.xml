@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Friends_Profile"
+    android:background="@color/colorPrimaryDark">
+
+    <include layout="@layout/toolbarlayout"
+        android:id="@+id/fndToolbar" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/fndToolbar"
+        android:background="#70000000">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/u_pro_pic"
+            android:layout_width="222dp"
+            android:layout_height="183dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/person" />
+
+        <Button
+            android:id="@+id/u_pro_sent_request_btn"
+            android:layout_width="236dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="90dp"
+            android:background="@color/colorAccent"
+            android:elevation="20dp"
+            android:text="Sent Friend Request"
+            android:textColor="@color/colorPrimary" />
+
+        <TextView
+            android:id="@+id/u_pro_user_name"
+            android:layout_width="match_parent"
+            android:layout_height="47dp"
+            android:layout_centerVertical="true"
+            android:text="TextView"
+            android:textAlignment="center"
+            android:textColor="#fff"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/u_pro_user_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/u_pro_user_name"
+            android:text="TextView"
+            android:textAlignment="center"
+            android:textColor="#fff"
+            android:textSize="17sp"
+            android:textStyle="normal" />
+    </RelativeLayout>
+
+</RelativeLayout>
