@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "860030737889",
+    "firebase_url": "https://personal-contact-d566a.firebaseio.com",
+    "project_id": "personal-contact-d566a",
+    "storage_bucket": "personal-contact-d566a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:860030737889:android:46142da0704acf0d4ec6a0",
+        "android_client_info": {
+          "package_name": "com.example.personalcontact"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "860030737889-fmanf5grml5vmps2vku64kba07v9ee6n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.personalcontact",
+            "certificate_hash": "2562ccc0e5a5a519e02c6e2a97d97140c2210edc"
+          }
+        },
+        {
+          "client_id": "860030737889-eo11p43is3u1mmo7049nt8fhl577u81t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCyZhQmN8jCjm_Icx77d5IZznEnqwyzPK4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "860030737889-eo11p43is3u1mmo7049nt8fhl577u81t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

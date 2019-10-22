@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Personal Contact</string>
+    <string name="login">LOGIN</string>
+    <string name="email">EMAIL</string>
+    <string name="pass">PASSWORD</string>
+    <string name="re_pass">RE-PASSWORD</string>
+    <string name="signup">SIGN UP</string>
+    <string name="name">NAME</string>
+    <string name="phone">PHONE</string>
+    <string name="birth">BIRTHDAY</string>
+    <string name="gender">GENDER</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="cname">CONTACT NAME</string>
+    <string name="submit">SUBMIT</string>
+    <string name="addNew">CREATE NEW CONTACT</string>
+    <string name="select">SELECT CONTACT IMAGE</string>
+    <string name="profile">PROFILE</string>
+    <string name="edit">EDIT</string>
+    <string name="home">HOME</string>
+    <string name="cancel">CANCEL</string>
+</resources>

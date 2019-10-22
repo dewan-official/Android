@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/profile" android:title="Profile" app:showAsAction="never" android:icon="@drawable/person" android:iconTint="@color/colorPrimary" android:iconTintMode="add"/>
+    <item android:id="@+id/logout" android:title="Logout" app:showAsAction="never" android:icon="@drawable/person" android:iconTint="@color/colorPrimary" android:iconTintMode="add"/>
+</menu>
