@@ -13,15 +13,14 @@
         android:theme="@style/AppTheme">
         <activity android:name=".MainActivity"></activity>
         <activity
-            android:name=".Profile"
-            android:theme="@style/Theme.AppCompat.NoActionBar" />
+            android:name=".Profile" android:label="Profile" />
         <activity
             android:name=".Login"
-            android:theme="@style/Theme.AppCompat.NoActionBar" />
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
         <activity
             android:name=".SignUp"
-            android:theme="@style/Theme.AppCompat.NoActionBar" />
-        <activity android:name=".Wellcome" android:theme="@style/Theme.AppCompat.NoActionBar">
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity android:name=".Wellcome" android:theme="@style/Theme.AppCompat.Light.NoActionBar" android:colorMode="default">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
