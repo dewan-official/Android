@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ভাষা পরিবর্তনকারী</string>
+    <string name="bangla">বাংলা</string>
+    <string name="english">ইংলিশ </string>
+    <string name="f_name">মোঃ অলি </string>
+    <string name="l_name">উল্লাহ</string>
+    <string name="address">গোড়াই, মির্জাপুর, টাঙ্গাইল </string>
+    <string name="mobile">০১৮৩১০০৭৮৮৬</string>
+</resources>

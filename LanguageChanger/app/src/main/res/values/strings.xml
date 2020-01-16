@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Language Changer</string>
+    <string name="bangla">Bangla</string>
+    <string name="english">Englist</string>
+    <string name="f_name">MD. OLI</string>
+    <string name="l_name">ULLAH</string>
+    <string name="address">Gorai, Mirzapur, Tangail</string>
+    <string name="mobile">01831007886</string>
+</resources>
