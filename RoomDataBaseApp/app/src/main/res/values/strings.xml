@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">RoomDatabase App</string>
+    <string-array name="gdsd">
+        <item>kdhglsg</item>
+        <item>kdhglsg</item>
+        <item>kdhglsg</item>
+        <item>kdhglsg</item>
+    </string-array>
+</resources>

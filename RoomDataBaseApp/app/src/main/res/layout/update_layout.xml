@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="15dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Update Item"
+        android:textSize="22dp"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        android:gravity="center"
+        android:textColor="#000"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp">
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/update_f_name"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Enter First Name"
+            android:textSize="22sp"/>
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp">
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/update_l_name"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Enter Last Name"
+            android:textSize="22sp"/>
+    </com.google.android.material.textfield.TextInputLayout>
+    <Spinner
+        android:id="@+id/update_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="15dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+        android:orientation="horizontal">
+        <Button
+        android:id="@+id/update_d_cancel"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_weight="1"
+        android:text="Cancel"
+        android:textSize="22dp"
+            android:background="#9E7B7B"/>
+        <Button
+        android:id="@+id/update_d_update"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_weight="1"
+        android:text="Update"
+        android:textSize="22dp"
+            android:background="@color/colorPrimary"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="15dp"
+    android:gravity="center">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Options"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textAllCaps="true"
+        android:gravity="center"
+        android:layout_marginBottom="15dp"
+        android:textColor="#000"/>
+    <Button
+        android:id="@+id/add_new_data_btn_id"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Add New"
+        android:textSize="22dp"
+        android:background="@color/colorPrimary"
+        android:layout_marginBottom="15dp"/>
+    <Button
+        android:id="@+id/update_data_btn_id"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:paddingHorizontal="50dp"
+        android:text="Update Item"
+        android:textSize="22dp"
+        android:background="@color/colorPrimary"
+        android:layout_marginBottom="15dp"/>
+    <Button
+        android:id="@+id/delete_data_btn_id"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:paddingHorizontal="50dp"
+        android:text="Delete Item"
+        android:textSize="22dp"
+        android:background="#FF0505"
+        android:layout_marginBottom="15dp"/>
+    <Button
+        android:id="@+id/d_cancel"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:paddingHorizontal="100dp"
+        android:text="Cancel"
+        android:textSize="22dp"
+        android:background="#F0DFDF"
+        android:layout_marginBottom="15dp"/>
+</LinearLayout>
